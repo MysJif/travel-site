@@ -1,0 +1,55 @@
+/* Color Theme Swatches in RGBA */
+.color-theme_dresden-1-rgba { color: rgba(23, 28, 38, 1); }
+.color-theme_dresden-2-rgba { color: rgba(99, 135, 166, 1); }
+.color-theme_dresden-3-rgba { color: rgba(206, 236, 242, 1); }
+.color-theme_dresden-4-rgba { color: rgba(242, 239, 233, 1); }
+.color-theme_dresden-5-rgba { color: rgba(102, 64, 56, 1); }
+
+body {
+    background-color: rgba(242, 239, 233, 1);
+    color: rgba(23, 28, 38, 1);
+    font-size: 1.3em;
+}
+
+header, footer{
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(206, 236, 242, 1);
+    border: 2px solid rgba(99, 135, 166, 1);
+    padding: 20px;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: auto;
+}
+
+h1{
+    color: rgba(102, 64, 56, 1);
+    text-align: center;
+}
+h2{
+    color: rgba(102, 64, 56, 1);
+}
+
+img {
+    padding: 20px;
+}
+
+a:link, a:visited {
+  background-color: rgba(23, 28, 38, 1);
+  color: rgba(242, 239, 233, 1);
+  text-decoration: none;
+  padding: 7px 13px;
+  display: inline-block;
+}
+
+a:hover, a:active {
+    color: rgba(23, 28, 38, 1);
+  background-color: rgba(242, 239, 233, 1);
+}
+
+p {
+    padding-top: 20px;
+}
